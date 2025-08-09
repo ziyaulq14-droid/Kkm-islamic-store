@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KKM Islamic Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1a1a1a;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="KKM Logo" />
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section id="home">
+    <h1>Welcome to KKM Islamic Store</h1>
+    <p>Your one-stop shop for Islamic books, attar, and essential items.</p>
+  </section>  <section id="products">
+    <h2>Our Products</h2>
+    <ul>
+      <li>Islamic Books</li>
+      <li>Attar & Perfumes</li>
+      <li>Prayer Mats</li>
+      <li>Tasbeeh & More</li>
+    </ul>
+  </section>  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      KKM Islamic Store is located at Dargah Shareef, Rudauli, District Ayodhya (UP).<br />
+      We are dedicated to providing quality Islamic items to our community.
+    </p>
+  </section>  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Mobile:</strong> 8400557589</p>
+    <p><strong>WhatsApp:</strong> 8400557589</p>
+    <p><strong>Address:</strong> Dargah Shareef, Rudauli, District Ayodhya, UP</p>
+  </section>  <footer>
+    &copy; 2025 KKM Islamic Store. All rights reserved.
+  </footer>
+</body>
+</html>
